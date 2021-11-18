@@ -12,14 +12,13 @@ public class Example8 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        label1:{
+    label1:{        //label statement
         for(int j=0;j<10; j++){
             for(int i=0; i<10; i++){
                 if(i==5)
-                break label1;
+                break label1;       //break the label statement
             System.out.println("Value J: "+ j +" Value i: "+ i);
             }
-        
         System.out.println("Value j: "+ j);
         }
     }
