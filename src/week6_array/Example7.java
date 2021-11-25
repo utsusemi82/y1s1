@@ -52,37 +52,7 @@ public class Example7 {
             System.out.println("The value is NOT found");
 
         
-        //binary search
-        
-        for(int pass = 1; pass < number.length; pass++ )  
-            for( int i = 0; i < number.length - 1; i++ )  
-		if (number[i] > number[i+1]){ 
-               	int hold = number[i];         
-		number[i] = number[i+1];   
-		number[i+1] = hold; 
-		} 
-         
-        //for(int i=0;i<number.length;i++)
-            //System.out.print(number[i]+ " ");
-        
-            int low=0;
-            int high=number.length-1;
-            int middle;
-            
-        // loop until low subscript is greater than high subscript
-            while ( low <= high ) {
-                middle = ( low + high ) / 2;
-                    if ( searchKey == number[ middle ] )
-                        position=middle;
-                        break;
-                        
-                    else if ( searchKey < number[ middle ] )
-                        high = middle - 1;
-                    else
-                        low = middle + 1;
-                    
-                count++; // key not found
-    }
+     
     }        
     
 }

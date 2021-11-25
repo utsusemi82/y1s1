@@ -7,10 +7,7 @@ package week6_array;
 import java.util.Random; 
 import java.util.Scanner; 
  
-/** 
- * 
- * @author askba 
- */ 
+
 public class Example6 { 
  
     /** 
