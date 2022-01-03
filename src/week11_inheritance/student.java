@@ -69,4 +69,20 @@ public class student {
         else
             return "Red";
     }
+    
+    private void printPrivate(){
+        System.out.println("This is a private method from parent class");
+    }
+    
+    protected void printProtected(){
+        System.out.println("This is a protected method from parent class");
+    }
+    
+    public void printPublic(){
+        System.out.println("This is a public method from parent class");
+    }
+    
+    public void accessPrivatePrint(){
+        this.printPrivate();
+    }
 }
